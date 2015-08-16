@@ -4,7 +4,7 @@
   "description": "Stuff and things",
   "main": "index.js",
   "scripts": {
-    "start": "SET TARGET=dev&& webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "author": "Luca DeCaprio",
   "license": "MIT",
@@ -21,6 +21,8 @@
     "webpack-merge": "latest"
   },
   "dependencies": {
+    "alt": "^0.17.1",
+    "array.prototype.findindex": "^1.0.0",
     "node-uuid": "^1.4.3",
     "react": "^0.13.3"
   }
